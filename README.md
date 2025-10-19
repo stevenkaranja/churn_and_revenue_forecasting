@@ -183,8 +183,11 @@ Data Analyst | BI Developer | Automation Specialist
 ⭐ Project Highlights
 
 ✅ End-to-end data analysis: from SQL → Python → Power BI
+
 ✅ Predictive churn modeling integrated into visualization
+
 ✅ Strategic simulation of retention impact
+
 ✅ Ready for presentation to executives or recruiters
 
-“Data without interpretation is just noise — turning churn analytics into action is what drives value.”
+“Data without interpretation is just noise; turning churn analytics into action is what drives value.”
