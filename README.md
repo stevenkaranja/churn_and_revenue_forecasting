@@ -122,54 +122,53 @@ These insights guide retention strategies focused on contract conversion, early 
 Telco-Churn-Analysis/
 │
 ├── data/
-│   ├── raw/                 # Original CSV dataset
-│   ├── processed/           # Cleaned data for modeling and Power BI
+│   ├── raw/ WA_Fn-UseC_-Telco-Customer-Churn # Original CSV dataset
+│   ├── processed/cleaned_customers           # Cleaned data for modeling and Power BI
 │
 ├── notebooks/
-│   ├── 01_data_cleaning.ipynb
-│   ├── 02_eda.ipynb
-│   ├── 03_model_building.ipynb
-│   ├── 04_forecasting.ipynb
+│   ├── 01_data_import.ipynb
+│   ├── 02_feature_engineering.ipynb
+│   ├── 03_chun_modelling.ipynb
+│   ├── 04_revenue_forecast.ipynb
 │
 ├── sql/
-│   ├── churn_analysis.sql   # SQL queries for churn, CLV, revenue segmentation
+│   ├── churn_project.sql   # SQL queries for churn, CLV, revenue segmentation
 │
-├── src/
+├── scripts/
 │   ├── db_config.py         # Database configuration
 │   ├── db_connection.py     # Connection handler
-│   ├── data_processing.py   # Preprocessing and feature engineering scripts
+│   ├── generate_revenue.py   # Preprocessing and feature engineering scripts
 │
 ├── powerbi/
-│   ├── Telco_Churn_Report.pbix   # Power BI Dashboard file
+│   ├── Telco_Churn_Analysis.pbix   # Power BI Dashboard file
 │
 ├── reports/
-│   ├── Executive_Summary.pdf
+│   ├── Telco_Churn_Analysis_Report.pdf
 │
-├── README.md
-└── requirements.txt 
+└── README.md
 
 ```
 ---
 
 ## 🚀 How to Run
 
-# 1. Clone the repository
+1. Clone the repository
 ```bash
 git clone https://github.com/yourusername/Telco-Churn-Analysis.git
 ```
-# 2. Navigate to the folder
+2. Navigate to the folder
 ```bash
 cd Telco-Churn-Analysis
 ```
-# 3. Install dependencies
+3. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-# 4. Open the notebooks in Jupyter or VSCode
+4. Open the notebooks in Jupyter or VSCode
 jupyter notebook
 
 
-📘 References
+#📘 References
 
 Kaggle: [Telco Customer Churn Dataset](https://www.kaggle.com/blastchar/telco-customer-churn)
 
@@ -177,7 +176,7 @@ Power BI Documentation – Forecasting and Analytics
 
 Scikit-Learn Logistic Regression Reference
 
-👤 Author
+#👤 Author
 
 Stephen Karanja
 
@@ -189,7 +188,7 @@ Data Analyst | BI Developer | Automation Specialist
 
 🌐 [Portfolio / Website](https://www.datascienceportfol.io/SK)
 
-⭐ Project Highlights
+#⭐ Project Highlights
 
 ✅ End-to-end data analysis: from SQL → Python → Power BI
 
