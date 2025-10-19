@@ -164,8 +164,11 @@ Scikit-Learn Logistic Regression Reference
 👤 Author
 
 Stephen Karanja
+
 Data Analyst | BI Developer | Automation Specialist
+
 📧 muhurakaranja7@gmail.com
+
 🔗 LinkedIn Profile (http://linkedin.com/in/steven-karanja)
 
 🌐 Portfolio / Website (https://www.datascienceportfol.io/SK)
