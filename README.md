@@ -167,8 +167,19 @@ pip install -r requirements.txt
 4. Open the notebooks in Jupyter or VSCode
 jupyter notebook
 
+## ⭐ Project Highlights
 
-##📘 References
+✅ End-to-end data analysis: from SQL → Python → Power BI
+
+✅ Predictive churn modeling integrated into visualization
+
+✅ Strategic simulation of retention impact
+
+✅ Ready for presentation to executives or recruiters
+
+“Data without interpretation is just noise; turning churn analytics into action is what drives value.”
+
+## 📘 References
 
 Kaggle: [Telco Customer Churn Dataset](https://www.kaggle.com/blastchar/telco-customer-churn)
 
@@ -176,7 +187,7 @@ Power BI Documentation – Forecasting and Analytics
 
 Scikit-Learn Logistic Regression Reference
 
-##👤 Author
+## 👤 Author
 
 Stephen Karanja
 
@@ -188,14 +199,4 @@ Data Analyst | BI Developer | Automation Specialist
 
 🌐 [Portfolio / Website](https://www.datascienceportfol.io/SK)
 
-##⭐ Project Highlights
 
-✅ End-to-end data analysis: from SQL → Python → Power BI
-
-✅ Predictive churn modeling integrated into visualization
-
-✅ Strategic simulation of retention impact
-
-✅ Ready for presentation to executives or recruiters
-
-“Data without interpretation is just noise; turning churn analytics into action is what drives value.”
