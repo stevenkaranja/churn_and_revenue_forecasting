@@ -1,4 +1,4 @@
-# 📊 Telco Customer Churn Analysis
+# 📊 Telco Customer Churn Analysis And Revenue Forecasting
 
 <img width="965" height="541" alt="image" src="https://github.com/user-attachments/assets/53ff773c-cc67-4c3c-b9b9-7b3c3cd117a7" />
 
