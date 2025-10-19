@@ -145,7 +145,8 @@ Telco-Churn-Analysis/
 ├── reports/
 │   ├── Telco_Churn_Analysis_Report.pdf
 │
-└── README.md
+├── README.md
+└── requirements.txt
 
 ```
 ---
@@ -166,6 +167,21 @@ pip install -r requirements.txt
 ```
 4. Open the notebooks in Jupyter or VSCode
 jupyter notebook
+
+### 🧠 STEP 2: Replace Before Commit
+
+Before you commit:
+1. Replace  
+   - `https://app.powerbi.com/your_dashboard_link` → your published Power BI report link  
+   - `yourusername`, `your_email@example.com`, and LinkedIn link.  
+2. Keep the **triple backticks (\`\`\`)** around code blocks — GitHub formats them automatically.  
+3. Commit using:
+   ```bash
+   git add README.md
+   git commit -m "Add project documentation"
+   git push
+
+---
 
 ## ⭐ Project Highlights
 
@@ -198,5 +214,15 @@ Data Analyst | BI Developer | Automation Specialist
 🔗 [LinkedIn Profile](http://linkedin.com/in/steven-karanja)
 
 🌐 [Portfolio / Website](https://www.datascienceportfol.io/SK)
+
+## 🪪 License
+
+This project is licensed under the MIT License – see the LICENSE
+file for details.
+
+
+---
+
+
 
 
