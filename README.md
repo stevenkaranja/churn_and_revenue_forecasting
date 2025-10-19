@@ -1,6 +1,6 @@
 # 📊 Telco Customer Churn Analysis
 
-![Dashboard Preview](dashboards/screenshots/executive_overview.png)
+![Dashboard Preview](Telco Churn Analysis/dashboards/screenshots/executive_overview.png)
 
 ## 📁 Project Overview
 
