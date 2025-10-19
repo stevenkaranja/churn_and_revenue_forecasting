@@ -168,7 +168,7 @@ pip install -r requirements.txt
 jupyter notebook
 
 
-#📘 References
+##📘 References
 
 Kaggle: [Telco Customer Churn Dataset](https://www.kaggle.com/blastchar/telco-customer-churn)
 
@@ -176,7 +176,7 @@ Power BI Documentation – Forecasting and Analytics
 
 Scikit-Learn Logistic Regression Reference
 
-#👤 Author
+##👤 Author
 
 Stephen Karanja
 
@@ -188,7 +188,7 @@ Data Analyst | BI Developer | Automation Specialist
 
 🌐 [Portfolio / Website](https://www.datascienceportfol.io/SK)
 
-#⭐ Project Highlights
+##⭐ Project Highlights
 
 ✅ End-to-end data analysis: from SQL → Python → Power BI
 
