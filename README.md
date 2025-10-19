@@ -1,6 +1,7 @@
 # 📊 Telco Customer Churn Analysis
 
-![Dashboard Preview](/dashboards/screenshots/executive_overview.png)
+<img width="965" height="541" alt="image" src="https://github.com/user-attachments/assets/53ff773c-cc67-4c3c-b9b9-7b3c3cd117a7" />
+
 
 ## 📁 Project Overview
 
@@ -116,49 +117,57 @@ These insights guide retention strategies focused on contract conversion, early 
 
 ---
 
-## 🗂 Project Structure
-
+## 🧩 Project Structure
+```bash
 Telco-Churn-Analysis/
 │
 ├── data/
-│ └── cleaned_telco_data.csv
-│
-├── sql/
-│ └── churn_analysis.sql
+│   ├── raw/                 # Original CSV dataset
+│   ├── processed/           # Cleaned data for modeling and Power BI
 │
 ├── notebooks/
-│ └── churn_model.ipynb
+│   ├── 01_data_cleaning.ipynb
+│   ├── 02_eda.ipynb
+│   ├── 03_model_building.ipynb
+│   ├── 04_forecasting.ipynb
 │
-├── dashboards/
-│ ├── Telco_Churn_Analysis_Report.pbix
-│ └── screenshots/
-│ ├── executive_overview.png
-│ ├── churn_predictions.png
-│ ├── revenue_forecast.png
-│ ├── clv_analysis.png
-│ └── strategy_simulation.png
+├── sql/
+│   ├── churn_analysis.sql   # SQL queries for churn, CLV, revenue segmentation
+│
+├── src/
+│   ├── db_config.py         # Database configuration
+│   ├── db_connection.py     # Connection handler
+│   ├── data_processing.py   # Preprocessing and feature engineering scripts
+│
+├── powerbi/
+│   ├── Telco_Churn_Report.pbix   # Power BI Dashboard file
 │
 ├── reports/
-│ └── Telco_Churn_Analysis_Report.pdf
+│   ├── Executive_Summary.pdf
 │
-└── README.md
+├── README.md
+└── requirements.txt 
 
-
+```
 ---
 
 ## 🚀 How to Run
 
-1. Clone this repository  
-   ```bash
-   git clone https://github.com/yourusername/Telco-Churn-Analysis.git
-   cd Telco-Churn-Analysis
-2. Open Power BI → File > Open → select
+# 1. Clone the repository
+```bash
+git clone https://github.com/yourusername/Telco-Churn-Analysis.git
+```
+# 2. Navigate to the folder
+```bash
+cd Telco-Churn-Analysis
+```
+# 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+# 4. Open the notebooks in Jupyter or VSCode
+jupyter notebook
 
-[Download Power BI Report (.pbix)](dashboards/Telco_Churn_Analysis_Report.pbix)
-
-3. Optionally connect to SQL or CSV data source (Power BI will prompt if needed).
-
-4. Interact with filters, forecasts, and simulations for real-time insights.
 
 📘 References
 
