@@ -152,10 +152,17 @@ Telco-Churn-Analysis/
    ```bash
    git clone https://github.com/yourusername/Telco-Churn-Analysis.git
    cd Telco-Churn-Analysis
+2. Open Power BI → File > Open → select
+
+[Download Power BI Report (.pbix)](dashboards/Telco_Churn_Analysis_Report.pbix)
+
+3. Optionally connect to SQL or CSV data source (Power BI will prompt if needed).
+
+4. Interact with filters, forecasts, and simulations for real-time insights.
 
 📘 References
 
-Kaggle: Telco Customer Churn Dataset (https://www.kaggle.com/blastchar/telco-customer-churn)
+Kaggle: [Telco Customer Churn Dataset](https://www.kaggle.com/blastchar/telco-customer-churn)
 
 Power BI Documentation – Forecasting and Analytics
 
@@ -169,9 +176,9 @@ Data Analyst | BI Developer | Automation Specialist
 
 📧 muhurakaranja7@gmail.com
 
-🔗 LinkedIn Profile (http://linkedin.com/in/steven-karanja)
+🔗 [LinkedIn Profile](http://linkedin.com/in/steven-karanja)
 
-🌐 Portfolio / Website (https://www.datascienceportfol.io/SK)
+🌐 [Portfolio / Website](https://www.datascienceportfol.io/SK)
 
 ⭐ Project Highlights
 
